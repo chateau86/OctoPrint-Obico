@@ -30,7 +30,7 @@ from .lib.error_stats import error_stats
 from .utils import server_request
 
 
-POST_PIC_INTERVAL_SECONDS = 10.0
+POST_PIC_INTERVAL_SECONDS = 0.1  # YOLO
 if os.environ.get('DEBUG'):
     POST_PIC_INTERVAL_SECONDS = 3.0
 
